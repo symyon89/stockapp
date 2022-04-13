@@ -10,7 +10,7 @@ import java.io.Serializable;
 @XmlRootElement(name="Stoc")
 public class ProduseDto implements Serializable {
     @XmlElement(name="id_produs")
-    private final Integer id;
-    private final String numeProdus;
-    private final Integer stoc;
+    private Integer id;
+    private String numeProdus;
+    private Integer stoc;
 }

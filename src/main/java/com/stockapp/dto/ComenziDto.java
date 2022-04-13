@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 public class ComenziDto implements Serializable {
-    private final Integer id;
-    private final List<ProduseDto> produse;
-    private final StatusComanda statusComanda;
+    private Integer id;
+    private List<ProduseDto> produse;
+    private StatusComanda statusComanda;
 }
